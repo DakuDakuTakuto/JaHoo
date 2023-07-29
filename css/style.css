@@ -44,7 +44,9 @@ main {
 }
 
 .main_main {
+    /* めいん記事左寄せ */
     flex: 1;
+    float: left;
     min-width: 0;
     max-width: 674px;
     position: relative;
