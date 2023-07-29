@@ -42,17 +42,14 @@ ol {
 .side_box li {
     width: calc(20% ,60%, 30%);
 }
+.side_ranking {
+    padding: 7px 0 7px 0;
+}
 /* ランキング 数字 */
 .side_ranking_num_a {
-    /* float: left;
-    width: 25px;
-    height: 80px; */
     font-size: 108x;
     font-weight: bolder;
     color: #333333;
-}
-.side_ranking_center {
-    /* float: center; */
 }
 /* ランキング タイトル名 */
 .side_ranking_title {
@@ -68,11 +65,4 @@ ol {
 /* Yahooニュース ○○ 時刻 色 */
 .side_ranking_source{
     color: #949494;
-}
-
-/* 右画像 */
-.ide_ranking_img {
-    /* float: right; */
-    /* width: 55px; */
-    /* margin-right: auto; */
 }
