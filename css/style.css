@@ -4,107 +4,25 @@ body {
     /* height: auto; */
     /* background-color: ; */
 }
+
 class {
     background-color: #f7f7f7;
 }
+
 li {
     list-style: none;
 }
+
 .text_hover {
     color: #03c;
 }
+
 .text_hover:hover {
     color: #dc6688;
-	text-decoration: inherit;
+    text-decoration: inherit;
 }
+
 /* ここまで */
-
-/* ナビバー */
-.JaHoo {
-    width: 1000px;
-    margin: auto;
-    background: white;
-}
-
-/* お知らせ */
-.osirase {
-    background-color: #f7f7f8;
-height: 33px;
-overflow: hidden;
-position: relative;
-width: 100%;
-}
-
-.osirase_txt {
-    margin: 4px 0 8px 9px;
-}
-
-.osirase_text {
-    font-size: 12px;
-    text-decoration:none;
-}
-
-.toptoptop {
-    width: 100%;
-    /* height: 70px; */
-    background: #44739c;
-    background-image: linear-gradient(to bottom, #44739c, #436f92);
-    padding: 0.01px;
-    box-sizing: border-box;
-}
-
-.toptopul {
-    display: flex;
-}
-
-.topid {
-    display: block;
-    text-decoration: none;
-    color: white;
-    margin-right: 35px;
-}
-
-/*　ナビバー主要 国内など */
-.syuyou {
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding-left: 5px;
-    background: #fff;
-    border-bottom: 1px #e1e1e1 solid;
-}
-
-.syuyouul {
-    position: relative;
-    padding: 0 8px;
-    font-size: 0.8749999999999999rem;
-}
-
-.syuyouid {
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    min-width: calc(2em + 16px);
-    height: 40px;
-    padding: 0 8px;
-    font-weight: bold;
-    line-height: 40px;
-    color: #4e5665;
-    border-bottom: 0 solid #476e9a;
-    -webkit-transition: border-width 0.1s ease-in-out;
-    transition: border-width 0.1s ease-in-out;
-}
-
-/* .syuyou_sennasi {
-    text-decoration: none;  /* 下線削除 
-} */
-/* .syuyou_sentuki {
-    border-bottom: 0 solid #476e9a;
-} */
 
 /* ページ全体 */
 .page_all {
@@ -232,7 +150,7 @@ h1 {
 .main_button {
     display: flex;
 
-    justify-content: flex-end;   
+    justify-content: flex-end;
     position: relative;
     flex-shrink: 0;
     -moz-box-align: center;
@@ -256,6 +174,7 @@ h1 {
     width: 70px;
 
 }
+
 .reaction :hover {
     /* opacity: 0.6; */
     transition-duration: 0.3s;
@@ -269,29 +188,33 @@ h1 {
     margin: 16px 16px 12px;
     line-height: 1.6;
 }
+
 .kanren_h3 {
     font-size: 0.9375rem;
-font-weight: normal;
+    font-weight: normal;
 
 }
+
 .kanren_ul {
     color: #333;
 }
+
 .kanren_li {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border: 0 solid rgba(0,0,0,.54);
-      border-top-color: rgba(0, 0, 0, 0.54);
-      border-right-color: rgba(0, 0, 0, 0.54);
-      border-bottom-color: rgba(0, 0, 0, 0.54);
-      border-left-color: rgba(0, 0, 0, 0.54);
-    border-color: rgba(0,0,0,.54);
+    border: 0 solid rgba(0, 0, 0, .54);
+    border-top-color: rgba(0, 0, 0, 0.54);
+    border-right-color: rgba(0, 0, 0, 0.54);
+    border-bottom-color: rgba(0, 0, 0, 0.54);
+    border-left-color: rgba(0, 0, 0, 0.54);
+    border-color: rgba(0, 0, 0, .54);
     border-color: var(--riff-color-border-primary);
 }
+
 .kanren_a {
     display: block;
-font-size: 0.9375rem;
-word-wrap: break-word;
+    font-size: 0.9375rem;
+    word-wrap: break-word;
 }
 
 /* 最終更新時間 */
@@ -303,14 +226,16 @@ word-wrap: break-word;
 }
 
 
-.fotter_div{
+.fotter_div {
     margin-left: auto;
     margin-right: 16px;
 }
+
 .fotter_text {
     margin-top: 3px;
     margin-bottom: 3px;
 }
+
 .footer_time {
     color: #949494;
 }
