@@ -1,0 +1,65 @@
+@media screen and (max-width: 768px) {
+    body {}
+
+    /* PC版ヘッダー非表示 */
+    .JaHoo {
+        display: none;
+    }
+
+    /* ここからヘッダー */
+    .JahooMobile {
+        border-bottom: 1px solid #d5dae1;
+        display: flex;
+    }
+
+    .M_yjs {
+        height: 44px;
+        background: #fff;
+    }
+
+    /* Jahooニュースロゴ+ボタンを並べる */
+    .M_yjsjLogoHeader {
+        display: flex;
+        padding-top: 5px;
+    }
+
+    /* ロゴ配置 */
+    .M_JaHooLogo {
+        padding: 5px 14px;
+    }
+
+    .M_yjsHeaderICON {
+        margin: 5px 14px 5px auto;
+        padding: 0;
+    }
+
+    .M_Header_Button {
+        margin: 0 7px;
+    }
+
+    .M_Header_Button_Search {
+        height: 20px;
+    }
+
+    .M_Header_Button_N {
+        height: 25px;
+    }
+
+    .M_Header_Button_Ji {
+        height: 18px;
+    }
+
+    .M_Header_Button_Menu {
+        height: 20px;
+    }
+
+    /* 二列目 */
+    .M_H_N {
+        background-color: #fff;
+        border-top: 1px solid #d9dde3;
+        border-bottom: 1px solid #d9dde3;
+        height: auto;
+        overflow: hidden;
+        font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+    }
+}
